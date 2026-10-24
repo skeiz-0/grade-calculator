@@ -11,8 +11,13 @@ console.log("Grade 2:", grade2);
 console.log("Grade 3:", grade3);
 console.log("Average Grade:", average.toFixed(2));
 
+let result;
+
 if (average >= 75) {
-  console.log("Result: Passed");
+  result = "Passed";
 } else {
-  console.log("Result: Failed");
+  result = "Failed";
 }
+
+console.log("Result:", result);
+console.log("Thank you for using the Grade Calculator!");
