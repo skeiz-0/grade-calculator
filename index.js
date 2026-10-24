@@ -31,4 +31,5 @@ if (!validGrades) {
 
   console.log("Result:", result);
   console.log("Thank you for using the Grade Calculator!");
+  console.log("Keep learning and improving!");
 }
